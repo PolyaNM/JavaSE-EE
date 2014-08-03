@@ -1,6 +1,6 @@
 package lesson3;
 
-// Напишете програма, която при въвеждане на дадено цяло число извежда цифрите му в обратен ред на конзолата.
+// Enter an integer number and print its digits in reverse order.
 
 import java.util.Scanner;
 

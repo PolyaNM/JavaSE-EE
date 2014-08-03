@@ -2,8 +2,7 @@ package lesson3;
 
 import java.util.Scanner;
 
-// Да се направи обратната на първата - потребителя си намисля число от 1 до 100, а програма го пита за разни числа 
-// и потребителя отговаря с < или >. Целта е с минимален брой ходове да се познае намисленото.
+// Make the opposite of task 20. The user selects a number and enters > or < according to the program's guess. 
 
 public class Task21 {
 

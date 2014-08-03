@@ -1,6 +1,6 @@
 package lesson3;
 
-// Да се състави програма, която чете числа от клавиатурата до въвеждане на 0 и отпечатва сумата им.
+// Make a program that reads numbers until 0 is entered. Print the sum of the entered numbers. 
 
 import java.util.Scanner;
 

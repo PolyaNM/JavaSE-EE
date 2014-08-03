@@ -1,6 +1,6 @@
 package lesson3;
 
-// Да се напише програма, която чете от клавиатурата числа и извежда най-голямото отрицателно число.
+// Make a program that reads numbers and prints the biggest negative number.
 
 import java.util.Scanner;
 

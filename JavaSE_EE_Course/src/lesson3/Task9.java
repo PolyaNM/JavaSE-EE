@@ -1,6 +1,6 @@
 package lesson3;
 
-// Да се напише програма , която при въедени 2 числа М и N извежда на конзолата всички числа в интервала между тях, които се делят на :
+// Enter two integer numbers M and N and print all numbers in the interval [M ..  N] which are divisible by :
 // 1. 3 
 // 2. 2 
 // 3. 5

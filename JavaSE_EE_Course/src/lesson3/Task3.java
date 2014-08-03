@@ -1,6 +1,6 @@
 package lesson3;
 
-// Да се състави програма , която чете числа от клавиатурата до въвеждане на 1 и отпечатва произведението им.
+// Make a program that reads numbers until 1 is entered. Print the product of the entered numbers.
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 package lesson3;
 
-// Да се напише програма, която приема числа от клавиатурата до въвеждане на 0 и извежда броя на въведените отрицателни числа.
+// Make a program that reads numbers until 0 is entered. Print how many negative numbers have been entered.
 
 import java.util.Scanner;
 

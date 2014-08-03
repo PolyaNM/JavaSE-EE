@@ -1,6 +1,6 @@
 package lesson3;
 
-// Да се състави програма, която въвежда 2 числа M и N от клавиатурата и отпечатва всички числа в интервала M и N.
+// Enter 2 numbers M and N and print all numbers in the interval [M .. N].
 
 import java.util.Scanner;
 

@@ -1,7 +1,6 @@
 package lesson3;
 
-// Да се състави програма, която отпечатва сумата на N въведени от клавиатурата числа. N се въвежда предварително. 
-// При въвеждане на всяко число да изписва колко остават за въвеждане.
+// Print the sum of N numbers. When each of the numbers is entered - print on the console how many numbers are left to be entered.
 
 import java.util.Scanner;
 

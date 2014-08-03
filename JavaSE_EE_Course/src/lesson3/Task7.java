@@ -1,8 +1,8 @@
 package lesson3;
 
-// Да се състави програма, която въвежда 2 числа M и N от клавиатурата и отпечатва:
-// - сумата на всички числа в интервала; 
-// - произведението им.
+// Enter two integer numbers M and N. Print: 
+// - the sum of all integer numbers in the interval [M .. N] 
+// - the product of all integer numbers in the interval [M .. N] 
 
 import java.util.Scanner;
 
@@ -16,9 +16,9 @@ public class Task7 {
 		int n = sc.nextInt();
 		
 		if (m > n){
-			int helper = m;
+			int temp = m;
 			m = n;
-			n = helper;
+			n = temp;
 		}
 		
 		int sum = 0;

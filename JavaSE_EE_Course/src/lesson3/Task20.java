@@ -2,9 +2,8 @@ package lesson3;
 
 import java.util.Scanner;
 
-
-// Да се направи програма, която генерира произволно число между 1 и 100 и пита потребителя всеки път да пробва да го познае. 
-// Когато потребителя въведе число с < или > му указва дали числото,което е въвел е съответно по-малко или по-голямо от търсенето.
+// Make a program that generates a random number N between 1 and 100 and asks the user to guess. 
+// When the user enters a number < N, print '<'. If the entered number is > N, print '>'.
 
 public class Task20 {
 

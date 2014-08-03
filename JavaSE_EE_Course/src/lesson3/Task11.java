@@ -1,7 +1,6 @@
 package lesson3;
 
-// Да се състави програма, която чете от клавиатурата число К и след това поредица от числа, докато сбора им не стане по-голям или равен на K , 
-// след което извежда на конзолата броя на въведените след K числа и средно аритметичното на сумата им.
+// Enter an integer number K. Read several numbers until their sum is >= K. Print how many numbers were entered after K and their average.
 
 import java.util.Scanner;
 

@@ -1,8 +1,7 @@
 package lesson3;
 
-// На състезание по вдигане на тежести при равни резултати се класира по-лекия сътезател. 
-// Напишете програма, която да приема от клавиатурата брой на състезателите , резултат и тегло на сътезателя 
-// и извежда поредния ниомер на победителя в състезанието.
+// Weightlifting contest. N contestants. Each of these contestants has result and weight. If two contestants have the same result, 
+// the winner is the one who is lighter. Print the number of the winner in the contest.
 
 import java.util.Scanner;
 

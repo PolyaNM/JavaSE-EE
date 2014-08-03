@@ -1,7 +1,7 @@
 package lesson3;
 
-// Да се състави програма, която чете от клавиатурата редици от по 5 числа, 
-// като при въвеждане на строго растяща редица спира и извежда на конзолата сумата на числата в последната редица
+// Read 5 numbers, then another 5 and so on until the entered 5 numbers can form an increasing sequence.
+// Print the sum of the numbers in the sequence.
 
 import java.util.Scanner;
 

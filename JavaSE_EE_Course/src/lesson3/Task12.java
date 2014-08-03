@@ -1,9 +1,7 @@
 package lesson3;
 
-// С цел сформиране на отбори от 3-ма участници била разработена анкета с точки. 
-// За добре подбран отбор се смятал този, в който сумата на резултатите на всеки участник е кратна на 3. 
-// Да се състави програма , която да приема 3-ки числа до въвеждане на 3 нули и да извежда на конзолата 
-// “Yes”, ако отборът е добре подбран и “No”, ако не е.
+// Make a program that reads 3 integers, then another 3 and so on until the entered 3 numbers are = 0.
+// After every 3 numbers print 'Yes' if their sum is divisible by 3 and 'No' if it's not.
 
 import java.util.Scanner;
 

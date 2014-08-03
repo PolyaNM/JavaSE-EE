@@ -2,8 +2,8 @@ package lesson3;
 
 import java.util.Scanner;
 
-// Да се състави програма , която при въведено от клавиатурата естествено число N 
-// извежда на екрана броя на всички 3- цифрени числа по-малки от N , които не съдържат еднакви цифри.
+// Make a program that reads an integer number N >=1.
+// Print the number of all 3-digit numbers < N. A number with 2 or 3 repeating digits must be ignored(333 or 332).
 
 public class Task19 {
 

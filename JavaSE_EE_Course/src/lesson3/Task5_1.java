@@ -1,9 +1,9 @@
 package lesson3;
 
-//Да се състави програма, която чете числа от клавиатурата до въвеждане на 0 и :
-//- Отпечатва най-голямото
-//- Отпечатва най-малкото
-//- Отпечатва най-голямото нечетно число
+//Make a program that reads numbers until 0 is entered AND :
+//- Prints the biggest one
+//- Prints the smallest one
+//- Prints the biggest odd numbers
 
 import java.util.Scanner;
 
@@ -15,8 +15,8 @@ public class Task5_1 {
 
 		int biggestNum = sc.nextInt();
 		int smallestNum = biggestNum;
-		int biggestUnevenNum = 1;
-		boolean unevenNumberFound = false;
+		int biggestOddNumber = 0;
+		boolean oddNumberFound = false;
 
 		while (true) {
 			int num = sc.nextInt();
@@ -31,12 +31,18 @@ public class Task5_1 {
 			if (num < smallestNum) {
 				smallestNum = num;
 			}
-
-			if (!unevenNumberFound && (num % 2 != 0)) {
-				biggestUnevenNum = num;
-				unevenNumberFound = true;
-			} else if ((num % 2 != 0) && (biggestUnevenNum < num)) {
-				biggestUnevenNum = num;
+			
+			if (num % 2 != 0) {
+				if (!oddNumberFound) {
+					biggestOddNumber = num;
+					oddNumberFound = true;
+				}
+				else{
+					if (biggestOddNumber < num) {
+						biggestOddNumber = num;
+					}
+					
+				}
 			}
 
 		}
@@ -44,8 +50,8 @@ public class Task5_1 {
 		System.out.println("The biggest number is: " + biggestNum);
 		System.out.println("The smallest number is: " + smallestNum);
 
-		if (unevenNumberFound) {
-			System.out.println("The biggest odd number is: " + biggestUnevenNum);
+		if (oddNumberFound) {
+			System.out.println("The biggest odd number is: " + biggestOddNumber);
 		} else {
 			System.out.println("There is no odd number among the entered integers!");
 		}

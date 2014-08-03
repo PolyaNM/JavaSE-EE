@@ -2,8 +2,9 @@ package lesson3;
 
 import java.util.Scanner;
 
-// Да се състави програма, която чете от клавиатурата ест число N <= 27 и 
-// отпечатва броя на естествените трицифрени числа, със сума на цифрите по-голяма от N.
+// Read an integer number in the range [1 .. 27]. Print the number of all 3-digit positive integers. 
+// The sum of the digits of these integers must be > N.
+
 
 public class Task18 {
 
@@ -35,8 +36,6 @@ public class Task18 {
 		}	
 		
 		System.out.println(counter + " number(s).");
-		
-		
 
 	}
 

@@ -2,8 +2,8 @@ package lesson3;
 
 import java.util.Scanner;
 
-// Да се прочетат 2 числа, които се събират в лонг. Да се провери дали на едното цифрите му се съдържат в другото същата последователност.
-// Пример 1454543534 - 5435     YES
+// Enter 2 integer numbers (long). Check if the digits of one of the numbers are present in the other number. 
+// The digits must be in the same order. Example: 1454543534 - 5435 YES       1234 - 235 NO
 
 public class Task22 {
 

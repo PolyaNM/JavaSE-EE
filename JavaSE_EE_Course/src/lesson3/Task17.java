@@ -2,8 +2,8 @@ package lesson3;
 
 import java.util.Scanner;
 
-// Да се състави програма, която чете от клавиатурата тройки числа до прочитането на такива три числа, 
-// които не могат да бъдат страни на триъгълник. Тогава отпечатва на конзолата най- големия периметър.
+// Read 3 numbers, then another 3 and so on until the entered 3 numbers cannot fulfill the condition for being sides of a triangle. 
+// Print the biggest perimeter.
 
 public class Task17 {
 

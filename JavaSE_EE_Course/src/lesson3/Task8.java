@@ -1,10 +1,9 @@
 package lesson3;
 
-// Дадени са 2 еднакви непрозрачни линийки . 
-// По дължината на всяка, на равни интервали дена от друга, на еднакво разстояние от ръба са пробити дупки. 
-// Дупките започват от 0-левото деление. Разстоянието м/у дупките е M милиметра за 1-та линийка и N милиметра за другата. 
-// Дължината на линийките е L . М, N и L се въвеждат от клавиатурата. 
-// Да се изведе колко дупки ще се съвпадат , ако линийките се поставят една в/у друга.
+// There are 2 similar transparent rulers. Length of the rulers - L.
+// Each of them has holes. The holes are placed in intervals of M mm for the first ruler and N mm for the second one.
+// The holes start from 0 mm for both rulers.
+// Print how many holes will match if the first ruler is placed over the second one.
 
 import java.util.Scanner;
 

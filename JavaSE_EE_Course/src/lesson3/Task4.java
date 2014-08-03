@@ -1,7 +1,8 @@
 package lesson3;
 
-// Да се състави програма която да чете числа от клавиатурата до въвеждане на отрицателно число 
-// и отпечатва броя на четните числа без отрицателното.
+// Make a program that reads numbers until a negative number is entered. 
+// Print all even numbers (without the negative one).
+
 
 import java.util.Scanner;
 
@@ -11,9 +12,10 @@ public class Task4 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter several numbers.");
 		int evenNumbersCounter = 0;
+		double num;
 
 		while (true) {
-			double num = sc.nextInt();
+			num = sc.nextInt();
 			if (num < 0) {
 				break;
 			}
