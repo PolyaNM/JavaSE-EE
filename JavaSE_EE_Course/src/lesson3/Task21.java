@@ -31,6 +31,7 @@ public class Task21 {
 			}
 			guessesCount++;
 		}
+		
 		System.out.println("Number found with " + guessesCount + " guesses!");
 	}
 
