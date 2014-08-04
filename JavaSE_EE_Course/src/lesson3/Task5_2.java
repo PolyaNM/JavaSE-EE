@@ -1,9 +1,9 @@
 package lesson3;
 
-// Да се състави програма, която чете числа от клавиатурата до въвеждане на 0 и :
-// - Отпечатва най-голямото
-// - Отпечатва най-малкото
-// - Отпечатва най-голямото нечетно число
+// Make a program that reads numbers until 0 is entered AND :
+//- Prints the biggest one
+//- Prints the smallest one
+//- Prints the biggest odd numbers
 
 import java.util.Scanner;
 

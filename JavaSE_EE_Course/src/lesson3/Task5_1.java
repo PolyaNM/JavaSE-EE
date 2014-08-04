@@ -1,6 +1,6 @@
 package lesson3;
 
-//Make a program that reads numbers until 0 is entered AND :
+// Make a program that reads numbers until 0 is entered AND :
 //- Prints the biggest one
 //- Prints the smallest one
 //- Prints the biggest odd numbers
@@ -18,8 +18,8 @@ public class Task5_1 {
 		int biggestOddNumber = 0;
 		boolean oddNumberFound = false;
 		
-		if (biggestNum % 2 != 0) {
-			biggestOddNumber = biggestNum;
+		if(biggestNum % 2 != 0){
+			biggestOddNumber - biggestNum;
 			oddNumberFound = true;
 		}
 
