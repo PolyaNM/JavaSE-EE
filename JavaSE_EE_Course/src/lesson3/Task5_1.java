@@ -19,7 +19,7 @@ public class Task5_1 {
 		boolean oddNumberFound = false;
 		
 		if(biggestNum % 2 != 0){
-			biggestOddNumber - biggestNum;
+			biggestOddNumber = biggestNum;
 			oddNumberFound = true;
 		}
 
