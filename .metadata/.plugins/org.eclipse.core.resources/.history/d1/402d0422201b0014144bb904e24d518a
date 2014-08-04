@@ -1,15 +1,11 @@
 package lesson1;
 
-import java.util.Scanner;
-
 public class Task7 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("How much money do you have?");	
-		double money = sc.nextDouble();
-		System.out.println("Are you healthy? true/false");
-		boolean isHealthy = sc.nextBoolean();
+		int hour; // never used ?
+		double money = 30.50;
+		boolean isHealthy = false;
 		
 		if (isHealthy) {
 			if (money > 0 && money < 10) {
