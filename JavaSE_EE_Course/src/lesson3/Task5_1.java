@@ -17,6 +17,11 @@ public class Task5_1 {
 		int smallestNum = biggestNum;
 		int biggestOddNumber = 0;
 		boolean oddNumberFound = false;
+		
+		if(biggestNum % 2 != 0){
+			biggestOddNumber - biggestNum;
+			oddNumberFound = true;
+		}
 
 		while (true) {
 			int num = sc.nextInt();
